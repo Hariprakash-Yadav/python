@@ -1,0 +1,26 @@
+'''print("Hello, World!")
+if 5 > 2:
+  print("Five is greater than two!")
+x = range(6)
+
+#display x:
+print(x)
+
+y=0'''
+
+def auth(user,pwd):
+    
+    if user == 'abc':
+      if pwd == 'hari':
+        print('Login Successfully')
+      else:
+        print('Incorrect Password')
+    elif user == 'xyz':
+      if pwd == 'poorna':
+        print('Login Successfully')
+      else:
+        print('Incorrect Password')
+    else:
+        print('Incorrect User')
+        
+auth('hjdsbdkj','hari')
